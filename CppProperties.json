@@ -1,0 +1,36 @@
+{
+     "configurations": [
+          {
+               "name": "Windows x64",
+               "includePath": [
+                    "\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\include",
+                    "..\\Dependencies\\libSDL\\include",
+                    "..\\Dependencies\\SDL_ttf\\include",
+                    "..\\Dependencies\\SDL2_image\\include",
+                    "..\\Dependencies\\SDL2_mixer-2.0.2\\include",
+                    "${env.WindowsSdkDir}include\\${env.WindowsSDKVersion}\\ucrt"
+               ],
+               "defines": [ "_DEBUG" ],
+               "compilerSwitches": "/std:c++14",
+               "intelliSenseMode": "msvc-x64",
+               "forcedInclude": [],
+               "undefines": []
+          },
+          {
+               "name": "x64-Debug",
+               "includePath": [
+                    "\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\include",
+                    "..\\Dependencies\\libSDL\\include",
+                    "..\\Dependencies\\SDL_ttf\\include",
+                    "..\\Dependencies\\SDL2_image\\include",
+                    "..\\Dependencies\\SDL2_mixer-2.0.2\\include",
+                    "${env.WindowsSdkDir}include\\${env.WindowsSDKVersion}\\ucrt"
+               ],
+               "defines": [ "_DEBUG" ],
+               "compilerSwitches": "/std:c++14",
+               "intelliSenseMode": "msvc-x64",
+               "forcedInclude": [],
+               "undefines": []
+          }
+     ]
+}
